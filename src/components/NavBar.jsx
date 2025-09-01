@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 
 import { navLinks } from "../constants";
+import { Link } from "react-router";
 
 const NavBar = () => {
   // track if the user has scrolled down the page
@@ -39,6 +40,12 @@ const NavBar = () => {
                 </a>
               </li>
             ))}
+            <li>
+              <Link to="/blogs" className="group">
+                <span>Blogs</span>
+                <span className="underline" />
+              </Link>
+            </li>
           </ul>
         </nav>
 
