@@ -1,26 +1,14 @@
 
 
-import { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router";
 
 const BlogNav = () => {
-  const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
-    const onScroll = () => {
-      setScrolled(window.scrollY > 40); 
-    };
-
-    window.addEventListener("scroll", onScroll, { passive: true });
-    onScroll(); 
-
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+ 
 
   return (
-    <header className={`navbar ${scrolled ? "scrolled" : "not-scrolled"}`}>
+    <header className="py-10 px-5" >
       <div className="inner container mx-auto flex items-center justify-between">
-        <Link to="/" className="logo">
+        <Link to="/" className="logo hidden md:block">
           Hamza Aryan Sapnil
         </Link>
 
