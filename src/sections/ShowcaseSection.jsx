@@ -66,6 +66,16 @@ const AppShowcase = () => {
                 An website built with React, RTK Query, Shadcn UI, & TailwindCSS
                 for a fast, user-friendly experience.
               </p>
+              <a
+                href="https://digital-wallet-frontend-three.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cursor-pointer"
+              >
+                <button className="p-3 bg-white text-black rounded-xl">
+                  View
+                </button>
+              </a>
             </div>
           </div>
 
@@ -78,6 +88,16 @@ const AppShowcase = () => {
                 />
               </div>
               <h2>The Library Management Platform</h2>
+              <a
+                href="https://digital-wallet-frontend-three.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cursor-pointer"
+              >
+                <button className="p-3 bg-white text-black rounded-xl">
+                  View
+                </button>
+              </a>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
@@ -91,6 +111,16 @@ const AppShowcase = () => {
                 </a>
               </div>
               <h2>YC Directory - A Startup Showcase App</h2>
+              <a
+                href="https://next-js-blog-project-xi.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cursor-pointer"
+              >
+                <button className="p-3 bg-white text-black rounded-xl">
+                  View
+                </button>
+              </a>
             </div>
           </div>
         </div>
